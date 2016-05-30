@@ -17,16 +17,10 @@ comments: true
     </h2>
     {% if paginator.next_page and paginator.previous_page == null %}
       {{ post.content }}
-
-      <b><a href="{{site.baseurl}}{{ post.url }}#disqus_thread">Yorumlar >></a></b>
-
-
+        <b><a href="{{site.baseurl}}{{ post.url }}#disqus_thread">Yorumlar >></a></b>
     {% elsif paginator.next_page == null and paginator.previous_page == null %}
       {{ post.content }}
-
-
-      <b><a href="{{site.baseurl}}{{ post.url }}#disqus_thread">Yorumlar >></a></b>
-
+        <b><a href="{{site.baseurl}}{{ post.url }}#disqus_thread">Yorumlar >></a></b>
     {% endif %}
 
   </article>
