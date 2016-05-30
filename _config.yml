@@ -1,0 +1,33 @@
+# Permalinks
+permalink:           pretty
+
+
+#analytics
+analytics_id:        UA-78540732-1
+
+
+# Setup
+title:               CoderFacts
+tagline:             >
+url:                 http://www.coderfacts.org
+paginate:            5
+paginate_path:       "page/:num/"
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Onur Samet Özer
+  url:               https://twitter.com/osozer_
+  email:             oso@coderfacts.com
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
