@@ -901,3 +901,9 @@ filter: none;
 width: auto !important;
 
 height: auto !important; }
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
