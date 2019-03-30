@@ -63,7 +63,7 @@
   "headline": "Java The Complete Reference 11th Edition Notes",
   "description" : "Recently, i have read Java: The Complete Reference 11th Edition to refresh my memory. I&amp;rsquo;ve written some notes and some code samples to clarify related note. You can read my notes and inspect related code samples.",
   "inLanguage" : "en",
-  "wordCount": 1421,
+  "wordCount": 1420,
   "datePublished" : "2019-03-26T10:15:51",
   "dateModified" : "2019-03-26T10:15:51",
   "image" : "https:///www.osozer.com/",
@@ -357,7 +357,7 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Recently, i have read <a href="https://www.amazon.com/Java-Complete-Reference-Eleventh/dp/1260440230"><em>Java: The Complete Reference 11th Edition</em></a> to refresh my memory. I&rsquo;ve written some notes and some code samples to clarify related note. You can read my notes and inspect related code samples. Have a fun!</p>
+        <p>Recently, i have read <a href="https://www.amazon.com/Java-Complete-Reference-Eleventh/dp/1260440230"><em>Java: The Complete Reference 11th Edition</em></a> to refresh my memory. I&rsquo;ve written some notes and some code samples to clarify related note. You can read my notes and inspect related code samples. Have fun!</p>
 
 <ul>
 <li>When an arithmetic operation is being done, all primitive types in the operation are promoted to the biggest type automatically.</li>
@@ -369,13 +369,13 @@
   <span style="color:#8be9fd">float</span> f <span style="color:#ff79c6">=</span> 5<span style="color:#ff79c6">.</span><span style="color:#50fa7b">67f</span><span style="color:#ff79c6">;</span>
   <span style="color:#8be9fd">double</span> d<span style="color:#ff79c6">=.</span><span style="color:#50fa7b">1234</span><span style="color:#ff79c6">;</span>
 
-  <span style="color:#8be9fd">int</span> result <span style="color:#ff79c6">=</span> b<span style="color:#ff79c6">*</span>c<span style="color:#ff79c6">/</span>s<span style="color:#ff79c6">;</span> <span style="color:#6272a4">// b*c is promoted to int, b*c/s is promotod also to int.
+  <span style="color:#8be9fd">int</span> result <span style="color:#ff79c6">=</span> b<span style="color:#ff79c6">*</span>c<span style="color:#ff79c6">/</span>s<span style="color:#ff79c6">;</span> <span style="color:#6272a4">// b*c is promoted to int, b*c/s is also promoted to int.
 </span><span style="color:#6272a4"></span>
   <span style="color:#8be9fd">int</span> anotherResult <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">(</span>f<span style="color:#ff79c6">*</span>b<span style="color:#ff79c6">)</span> <span style="color:#ff79c6">+</span> <span style="color:#ff79c6">(</span>i<span style="color:#ff79c6">/</span>c<span style="color:#ff79c6">)-(</span>d<span style="color:#ff79c6">*</span>s<span style="color:#ff79c6">);</span> <span style="color:#ff79c6">//</span> b is promoted to <span style="color:#8be9fd">float</span> because of f is <span style="color:#8be9fd">float</span><span style="color:#ff79c6">.</span> c is promoted to <span style="color:#8be9fd">int</span><span style="color:#ff79c6">,</span> then s is promoted to <span style="color:#8be9fd">double</span> and all result is promoted to <span style="color:#8be9fd">double</span><span style="color:#ff79c6">.</span></code></pre></div>
 <ul>
 <li><p>The elements in the array allocated by new will automatically be initialized to zero (for <strong>numeric</strong> types), false (for <strong>boolean</strong>) and null (for <strong>reference</strong> types).</p></li>
 
-<li><p>Although you can declare an array type using <strong>var</strong>, you cannot use <strong>var</strong> with an array initilizer.</p></li>
+<li><p>Although you can declare an array type using <strong>var</strong>, you cannot use <strong>var</strong> with an array initializer.</p></li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Java" data-lang="Java">  var myArray <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd">int</span><span style="color:#ff79c6">[</span>5<span style="color:#ff79c6">];</span><span style="color:#6272a4">// valid
 </span><span style="color:#6272a4"></span>  var myArray <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">{</span>1<span style="color:#ff79c6">,</span>2<span style="color:#ff79c6">,</span>3<span style="color:#ff79c6">,</span>4<span style="color:#ff79c6">,</span>5<span style="color:#ff79c6">};</span> <span style="color:#ff79c6">//</span>error</code></pre></div>
@@ -493,7 +493,7 @@
       <span style="color:#8be9fd;font-style:italic">protected</span> <span style="color:#8be9fd">int</span> id<span style="color:#ff79c6">;</span>
 
       <span style="color:#8be9fd">void</span> <span style="color:#50fa7b">increaseAge</span><span style="color:#ff79c6">(</span>B b<span style="color:#ff79c6">){</span>
-        b<span style="color:#ff79c6">.</span><span style="color:#50fa7b">age</span><span style="color:#ff79c6">++;</span><span style="color:#6272a4">//can aaccess age of B;
+        b<span style="color:#ff79c6">.</span><span style="color:#50fa7b">age</span><span style="color:#ff79c6">++;</span><span style="color:#6272a4">//can access age of B;
 </span><span style="color:#6272a4"></span>      <span style="color:#ff79c6">}</span>
     <span style="color:#ff79c6">}</span>
 
@@ -651,7 +651,7 @@
 
   <span style="color:#8be9fd;font-style:italic">class</span> <span style="color:#50fa7b">D</span><span style="color:#ff79c6">{</span>
     <span style="color:#8be9fd;font-style:italic">public</span> <span style="color:#8be9fd;font-style:italic">static</span> <span style="color:#8be9fd">void</span> <span style="color:#50fa7b">main</span><span style="color:#ff79c6">(){</span>
-      <span style="color:#8be9fd">int</span> salary <span style="color:#ff79c6">=</span> D<span style="color:#ff79c6">.</span><span style="color:#50fa7b">getDefaultSalary</span><span style="color:#ff79c6">();</span> <span style="color:#6272a4">//OK, can be called wirh interface name directly.
+      <span style="color:#8be9fd">int</span> salary <span style="color:#ff79c6">=</span> D<span style="color:#ff79c6">.</span><span style="color:#50fa7b">getDefaultSalary</span><span style="color:#ff79c6">();</span> <span style="color:#6272a4">//OK, can be called with interface name directly.
 </span><span style="color:#6272a4"></span>    <span style="color:#ff79c6">}</span>
   <span style="color:#ff79c6">}</span></code></pre></div>
 <ul>
