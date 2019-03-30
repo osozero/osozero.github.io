@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coder facts</title>
+    <link>https:///www.osozer.com/</link>
+    <description>Recent content on coder facts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>sametozer13@gmail.com (Onur Ozer)</managingEditor>
+    <webMaster>sametozer13@gmail.com (Onur Ozer)</webMaster>
+    <lastBuildDate>Tue, 26 Mar 2019 10:15:51 -0700</lastBuildDate>
+    
+	<atom:link href="https:///www.osozer.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java The Complete Reference 11th Edition Notes</title>
+      <link>https:///www.osozer.com/java-the-complete-reference-eleventh-edition-notes/</link>
+      <pubDate>Tue, 26 Mar 2019 10:15:51 -0700</pubDate>
+      <author>sametozer13@gmail.com (Onur Ozer)</author>
+      <guid>https:///www.osozer.com/java-the-complete-reference-eleventh-edition-notes/</guid>
+      <description>Recently, i have read Java: The Complete Reference 11th Edition to refresh my memory. I&amp;rsquo;ve written some notes and some code samples to clarify related note. You can read my notes and inspect related code samples.</description>
+    </item>
+    
+  </channel>
+</rss>
